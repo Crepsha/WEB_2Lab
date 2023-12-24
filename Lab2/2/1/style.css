@@ -1,0 +1,30 @@
+body{
+    padding: 0px;
+    background-color: rgb(240, 224, 199);
+    border: 3px solid rgb(224, 184, 113);
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.left{
+    flex-direction: column;
+    width: 35%;
+}
+
+img{
+	border-radius: 10px;
+	width: 244px;
+	height: 326px;
+}
+.right{
+    margin-left: 5%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

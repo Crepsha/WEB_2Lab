@@ -1,0 +1,35 @@
+body{
+	margin-top: 5%;
+    width: 100% ;
+}
+
+h1{
+	text-align: left;
+	margin-left: 38%
+}
+.left-side{
+    float: left;
+    width: 49.5%;
+    text-align: right;
+}
+
+.right-side{
+    float: right;
+    width: 49.5%;
+}
+
+.text{
+    font-size: 18px;
+    padding-top: 4px;
+}
+
+input{
+    margin-top: 5px;
+}
+select{
+    margin-top:5px;
+}
+
+.sumb{
+    margin-top: 20px;
+}

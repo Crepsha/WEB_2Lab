@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="content">
+      <h1>Таблицы в HTML</h1>
+      <div class="first">
+        <pre>	Одним из наиболее мощных и широко применяемых в <b>HTML</b> средств <br>являются <i style=" font-size: 30px">таблицы</i>.
+			</pre>
+      </div>
+      <div class="second">
+        <p>
+          <span style="background-color: yellow">
+            <u
+              >Понятие табличного представления данных не нуждается в<br />
+              дополнительном пояснении.</u
+            >
+          </span>
+          <span style="background-color: darkgrey">
+            В HTML таблицы используется не только<br />
+            традиционно, как метод представления данных, но и как средство
+            <br />
+            форматирование Web-страниц.
+          </span>
+        </p>
+      </div>
+      <h2>Создание простейших HTML-таблиц</h2>
+
+      <p>
+        <b style="background-color: fuchsia; font-size: 30px">
+          <i>Описание</i>
+        </b>
+        <u><i>таблиц</i> должно</u> распологаться внутри раздела документа<br />
+        &lt;BODY&gt;.
+      </p>
+      <div class="third">
+        <p>
+          Каждая <u style="color: blue">таблица</u> должна начинаться тэгом
+          &lt;TABLE&gt; и завершаться<br />
+          тэгом&lt;\TABLE&gt;.
+        </p>
+        <p style="background-color: darkgrey">
+          <i style="color: blue">
+            <b>Каждая</b>
+          </i>
+          строка начинается тэгом &lt;TR&gt; (Table Row) и завершается тэгом<br />
+          &lt;\TR&gt;.
+          <i style="color: crimson">
+            <b>Отдельная</b>
+          </i>
+          ячейка в строке обрамляется парой тэгов &lt;TD&gt; и &lt;\TD&gt;<br />
+          (Table Data) или &lt;TH&gt; и &lt;\TH&gt;(Nable Header)
+        </p>
+      </div>
+
+      <p style="text-align: right"><b>Таблица 1</b></p>
+      <h2 style="color: blue; text-align: center">
+        <s><i>Математические выражения</i></s>
+      </h2>
+      <table>
+        <tr>
+          <th style="text-align: left"><i>Поле1</i></th>
+          <th
+            style="
+              color: floralwhite;
+              background-color: black;
+              text-align: center;
+            "
+          >
+            Поле 2
+          </th>
+          <th style="color: blue; background-color: aqua; text-align: right">
+            Поле 3
+          </th>
+          <th style="background-color: darksalmon; text-align: left">
+            <u>Поле 4</u>
+          </th>
+          <th style="background-color: darkorange; text-align: center">
+            Поле5
+          </th>
+        </tr>
+        <tr>
+          <td style="color: blue">
+            <b>(a+b)<sup>2</sup></b>
+          </td>
+          <td>
+            <b>a<sup>2</sup>-b<sup>2</sup></b>
+          </td>
+          <td style="color: blue">
+            <b>(a-b)<sup>3</sup></b>
+          </td>
+          <td>
+            <b>A<sub>1</sub>+A<sub>2</sub>+...A<sub>i</sub></b>
+          </td>
+          <td style="color: blue">
+            <b>y=x<sup>2</sup></b>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

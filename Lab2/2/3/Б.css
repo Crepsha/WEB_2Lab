@@ -1,0 +1,16 @@
+h1{
+	font-weight: normal;
+    margin: 0px;
+}
+
+input[type=submit]{
+	font-family: 'Franklin Gothic Medium';
+	font-weight:bolder;
+	color: rgb(57, 104, 138);
+}
+
+input[type=reset] {
+	font-family: 'Franklin Gothic Medium';
+	font-weight: bolder;
+	color: rgb(57, 104, 138);
+}

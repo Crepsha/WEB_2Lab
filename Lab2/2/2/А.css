@@ -1,0 +1,24 @@
+body {
+	margin: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	width: 120px;
+	height: 30px;
+	border: 2px solid black;
+}
+
+.col {
+	background-color: aquamarine;
+}
+
+.row {
+	background-color: bisque;
+}

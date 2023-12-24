@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Пример</title>
+    <link rel="stylesheet" type="text/css" href="Б.css" />
+  </head>
+  <body>
+    <main>
+      <form action="request">
+        <h1>Пример формы регистрации сайта</h1>
+        Логин:<br />
+        <input type="text" /><br />
+
+        Пароль:<br />
+        <input type="password" /><br />
+
+        URL-адрес сайта:<br />
+        <input type="text" value="http://" /><br />
+
+        Название сайта:<br />
+        <input type="text" /><br />
+
+        <div>
+          <label for="text">Описание сайта:<br /></label>
+          <textarea rows="10" cols="50" id="text"></textarea>
+        </div>
+        <div>
+          <label> Тема сайта:<br /></label>
+          <select>
+            <option>Тема не выбрана</option>
+            <option>Бизнес</option>
+            <option>Блог</option>
+            <option>IT</option>
+          </select>
+        </div>
+        <div>
+          <label
+            >Баннер 88х31:<br />
+            <input type="file" />
+          </label>
+        </div>
+        <div>
+          <br />
+          <input type="reset" value="Очистить" />
+          <input type="submit" value="Отправить" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
